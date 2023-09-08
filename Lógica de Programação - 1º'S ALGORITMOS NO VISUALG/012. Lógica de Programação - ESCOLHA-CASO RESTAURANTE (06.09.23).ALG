@@ -1,35 +1,35 @@
-Algoritmo "PRE«O A PARTIR DO C”DIGO    "
-// Disciplina  :  [Linguagem e LÛgica de ProgramaÁ„o] 
+Algoritmo "PRE√áO A PARTIR DO C√ìDIGO"
+// Disciplina  :  [Linguagem e L√≥gica de Programa√ß√£o] 
 // Professor   : Carlos Anderson Santos de Jesus
-// DescriÁ„o   : Uso do "ESCOLHA-CASO" para exibir o valor do prato a partir do cÛdigo! (funÁ„o)
+// Descri√ß√£o   : Uso do "ESCOLHA-CASO" para exibir o valor do prato a partir do c√≥digo! (fun√ß√£o)
 // Autor(a)    : Gabriel S. Olavo
 // Data atual  : 06/09/2023
 
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis
+// Se√ß√£o de Declara√ß√µes das vari√°veis
 
 opcao, quant : inteiro
  produtoA, produtoB, produtoC, produtoD, produtoE : real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 
 escreval ("----------------------\ RESTAURANTE BARATIE /---------------------")
 escreval ("")
-escreval ("------------------------- CAD¡RPIO DO DIA ------------------------")
+escreval ("------------------------- CAD√ÅRPIO DO DIA ------------------------")
 escreval ("")
 escreval ("( ) 01 | Picanha")
 escreval ("( ) 02 | Lasanha")
 escreval ("( ) 03 | Strogonoff")
 escreval ("( ) 04 | Bife acebolado")
-escreval ("( ) 05 | P„o com ovo")
+escreval ("( ) 05 | P√£o com ovo")
 escreval ("")
-escreva ("Por favor, selecione uma das opÁıes do card·pio: ")
+escreva ("Por favor, selecione uma das op√ß√µes do card√°pio: ")
 leia (opcao)
 escreva ("Informe a quantidade que deseja: ")
 leia (quant)
 
-// C·lculo do valor adquirido
+// C√°lculo do valor adquirido
 
 produtoA <- 25.00 * quant
 produtoB <- 20.00 * quant
@@ -43,7 +43,7 @@ limpatela
 
 escreval ("NOTA FISCAL DA COMPRA")
 escreval ("")
-escreval ("CÛdigo do prato: ", opcao)
+escreval ("C√≥digo do prato: ", opcao)
 
 Escolha opcao
 caso 1
@@ -71,15 +71,15 @@ caso 4
      escreval ("Quantidade adquirida: ", quant)
      escreval ("VALOR FINAL DA COMPRA: R$ ", produtoD :2:2)
 caso 5
-     escreval ("Nome do prato: P„o com ovo")
+     escreval ("Nome do prato: P√£o com ovo")
      escreval ("Valor do prato: R$ 5.00")
      escreval ("")
      escreval ("Quantidade adquirida: ", quant)
      escreval ("VALOR FINAL DA COMPRA: R$ ", produtoE :2:2)
 
-// Exibe quando È selecionada a opÁ„o errada
+// Exibe quando √© selecionada a op√ß√£o errada
 outrocaso
-         escreval ("OpÁ„o selecionada È INV¡LIDA!")
+         escreval ("Op√ß√£o selecionada √© INV√ÅLIDA!")
 fimescolha
 
 Fimalgoritmo
