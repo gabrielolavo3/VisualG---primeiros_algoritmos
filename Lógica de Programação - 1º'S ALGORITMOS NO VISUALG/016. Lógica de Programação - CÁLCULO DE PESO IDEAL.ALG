@@ -1,18 +1,18 @@
-Algoritmo "C¡LCULO DE PESO IDEAL"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "C√ÅLCULO DE PESO IDEAL"
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Carlos Anderson Santos de Jesus
-// DescriÁ„o   : C·lcula o peso ideal com base no sexo e peso atual! (funÁ„o)
+// Descri√ß√£o   : C√°lcula o peso ideal com base no sexo e peso atual! (fun√ß√£o)
 // Autor(a)    : Gabriel S. Olavo
 // Data atual  : 07/09/2023
 
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis
+// Se√ß√£o de Declara√ß√µes das vari√°veis
 
 peso, calculo : real
 sexo : caracter
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 
 // Coletando dados
 
@@ -29,7 +29,7 @@ limpatela
 escreval ("CALCULADORA DE PESO IDEAL - Resultado!")
 escreval ("")
 
-// Calculando peso com relaÁ„o ao sexo
+// Calculando peso com rela√ß√£o ao sexo
 
 escolha sexo
 caso "M"
@@ -45,7 +45,8 @@ calculo <- (peso - 100) * 0.85
      escreval ("O seu peso ideal: ", calculo)
      
 outrocaso
-         escreval ("Sexo informado È inv·ido.")
+          limpatela
+         escreval ("Sexo informado √© inv√°ido.")
 fimescolha
 
 Fimalgoritmo
