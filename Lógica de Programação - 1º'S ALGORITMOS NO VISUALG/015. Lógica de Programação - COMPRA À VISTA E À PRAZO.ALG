@@ -1,29 +1,29 @@
-Algoritmo "¿ VISTA E ¿ PRAZO"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "√Ä VISTA E √Ä PRAZO"
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Carlos Anderson Santos de Jesus
-// DescriÁ„o   : Aplica desconto em pagamento ‡ vista ou parcelar, em caso de ‡ prazo! (funÁ„o)
+// Descri√ß√£o   : Aplica desconto em pagamento √† vista ou parcelar, em caso de √† prazo! (fun√ß√£o)
 // Autor(a)    : Gabriel S. Olavo
 // Data atual  : 07/09/2023
 
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 
 preco, parcela, pag : real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 
 // Coletando dados
 
-escreval ("MERCADO S√O DIMAS!")
+escreval ("MERCADO S√ÉO DIMAS!")
 escreval ("")
 escreva ("Informe o valor do produto (em R$): ")
 leia (preco)
 escreval ("")
-escreval ("MÈtodo de Pagamento")
+escreval ("M√©todo de Pagamento")
 escreval ("")
-escreval ("1 - Pagamento ‡ vista")
-escreval ("2 - Pagamento ‡ prazo")
+escreval ("1 - Pagamento √† vista")
+escreval ("2 - Pagamento √† prazo")
 escreval ("")
 escreva ("Informe a forma de pagamento: ")
 leia (pag)
@@ -32,30 +32,31 @@ leia (pag)
 
 limpatela
 
-escreval ("MERCADO S√O DIMAS! - NF")
+escreval ("MERCADO S√ÉO DIMAS! - NF")
 escreval ("")
+escreval ("Valor do produto: R$ ", preco :2:2)
 
-// Verificando o mÈtodo de pagamento e o possÌvel desconto
+// Verificando o m√©todo de pagamento e o poss√≠vel desconto
 
 escolha pag
 
 caso 1
-     escreval ("Valor do produto: ", preco)
-     escreval ("MÈtodo de pagamento: ‡ vista")
+     escreval ("M√©todo de pagamento: √† vista")
      escreval ("")
-     escreval ("Desconto de 10%! VALOR FINAL DA NF: ", preco - (preco*0.10))
+     escreval ("Desconto de 10%! VALOR FINAL DA NF: R$ ", preco - (preco*0.10) :2:2)
      
 caso 2
-     escreval ("Valor do produto: ", preco)
-     escreval ("MÈtodo de pagamento: ‡ prazo")
+     escreval ("M√©todo de pagamento: √† prazo")
      escreval ("")
      escreva ("Quantidade de parcelas: ")
      leia (parcela)
-     escreval ("Valor por parcela: ", preco / parcela)
-     escreval ("Total ‡ prazo: ", preco)
+     escreval ("Valor por parcela: R$ ", preco / parcela :2:2)
+     escreval ("")
+     escreval ("TOTAL √Ä PRAZO: R$ ", preco :2:2)
 
 outrocaso
-     escreval ("MÈtodo de pagamento selecionado È inv·lido!")
+limpatela
+     escreval ("M√©todo de pagamento selecionado √© inv√°lido!")
 fimescolha
 
 Fimalgoritmo
