@@ -8,7 +8,7 @@ Algoritmo "CÁLCULO DE PESO IDEAL"
 Var
 // Seção de Declarações das variáveis
 
-peso, calculo : real
+peso, calculo, altura : real
 sexo : caracter
 
 Inicio
@@ -22,6 +22,8 @@ escreva ("Informe o seu sexo: ")
 leia (sexo)
 escreva ("Informe o seu peso atual: ")
 leia (peso)
+escreva ("Informe a sua altura (em M): ")
+leia (altura)
 
 // Tela de resultado
 
@@ -33,20 +35,19 @@ escreval ("")
 
 escolha sexo
 caso "M"
-calculo <- (peso - 100) * 0.90
+calculo <- (peso * altura) * 0.50
      escreval ("Sexo informado: Masculino")
      escreval ("Peso atual: ", peso)
      escreval ("O seu peso ideal: ", calculo)
 
 caso "F"
-calculo <- (peso - 100) * 0.85
+calculo <- (peso * altura) * 0.40
      escreval ("Sexo informado: Feminino")
      escreval ("Peso atual: ", peso)
      escreval ("O seu peso ideal: ", calculo)
      
 outrocaso
-          limpatela
-         escreval ("Sexo informado é inváido.")
+         escreval ("Informação inváida.")
 fimescolha
 
 Fimalgoritmo
