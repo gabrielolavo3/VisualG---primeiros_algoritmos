@@ -37,17 +37,18 @@ escolha sexo
 caso "M"
 calculo <- (peso * altura) * 0.50
      escreval ("Sexo informado: Masculino")
-     escreval ("Peso atual: ", peso)
-     escreval ("O seu peso ideal: ", calculo)
 
 caso "F"
 calculo <- (peso * altura) * 0.40
      escreval ("Sexo informado: Feminino")
-     escreval ("Peso atual: ", peso)
-     escreval ("O seu peso ideal: ", calculo)
      
 outrocaso
          escreval ("Informação inváida.")
 fimescolha
+
+// Tela de resultado final
+
+escreval ("Peso atual: ", peso)
+escreval ("Peso ideal recomendado: ", calculo)
 
 Fimalgoritmo
